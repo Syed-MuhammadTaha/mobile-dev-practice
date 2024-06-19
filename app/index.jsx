@@ -7,7 +7,7 @@ import {Link} from 'expo-router'
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
 
-export default function RootLayout() {
+export default function Index() {
 
   return (
     <View style={styles.container}>
@@ -26,5 +26,6 @@ const styles = StyleSheet.create({
   text: {
     fontFamily: 'SpaceMono',
     fontSize: 20,
+    fontWeight: 'bold',
   },
 });
